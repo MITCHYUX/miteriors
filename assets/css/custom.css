@@ -1,0 +1,121 @@
+#app{
+    top:0;
+    bottom:0;
+    right:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+
+}
+
+.container{
+    display: flex;
+}
+/* HEADING */
+#heading{
+    height: 100%;
+    width: 330px;
+    position: fixed;
+    background-color: #4285f4;
+    top: 0;
+    left: 0;
+}
+.list-head {
+    list-style: none;
+    
+}
+.list-head a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.list-head li{
+    margin: 8px;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: monospace;
+}
+.list-head li:hover{
+    background-color: #ffffff;
+    
+}
+.list-head a:hover{
+    color: #000000;
+}
+/* end of heading */
+
+
+/* SHOWCASE */
+.showcase{
+margin-left: 400px;
+margin-top: 60px;
+line-height: 30px;
+}
+.showcase h1{
+    font-size: 70px;
+}
+.showcase h2{
+    font-size: 55px;
+    color: #4285f4;
+
+}
+/* end of showcase */
+
+/* Services */
+.services{
+    margin-left: 400px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.services h2{
+    font-size: 55px;
+    color: #4285f4;
+}
+.services p{
+    text-align: justify;
+}
+/* end of services */
+
+/* deigners */
+.designers{
+    margin-left: 400px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.designers h2{
+    font-size: 55px;
+    color: #4285f4;
+}
+
+.designers p{
+    text-align: justify;
+}
+
+/* packages */
+.packages{
+    margin-left: 400px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.packages h2{
+    font-size: 55px;
+    color: #4285f4;
+}
+
+.packages p{
+    text-align: justify;
+}
+.mancross{
+    columns: 3;
+}
+.contain{
+    
+    background-color: rgba(211,211,211,0.3);
+    line-height: 20px;
+
+}
