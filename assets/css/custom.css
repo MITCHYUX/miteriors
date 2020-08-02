@@ -119,3 +119,43 @@ line-height: 30px;
     line-height: 20px;
 
 }
+/* .packages table{
+    text-align: center;
+} */
+.tabs{
+    display: flex;
+    /* margin-left: 150px; */
+
+}
+#tab1{
+    width:450px;
+    /* padding: 40px; */
+    text-align: center;
+}
+
+#tab1 th{
+    background-color:gray;
+    color:#ffffff;
+    font-size:30px;
+    height:50px;
+}
+#tab1 td{
+    border-bottom:1px solid grey;
+    background-color:#ddd;
+}
+#tab2{
+    width:450px;
+    /* padding: 40px; */
+    text-align: center;
+    
+}
+#tab2 th{
+    background-color: #4285f4;
+    color: #ffffff;
+    font-size:30px;
+    height:50px;
+}   
+#tab2 td{
+    border-bottom:1px solid grey;
+    background-color:#ddd;
+}
