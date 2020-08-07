@@ -1,3 +1,7 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 #app{
     top:0;
     bottom:0;
@@ -5,8 +9,6 @@
     left: 0;
     height: 100%;
     width: 100%;
-    padding: 0;
-    margin: 0;
     font-family: "poppins", sans-serif;
 
 }
@@ -111,51 +113,135 @@ line-height: 30px;
     text-align: justify;
 }
 .mancross{
-    columns: 3;
+    display:flex;
+    flex-wrap:wrap;
 }
-.contain{
+.mancross_text{
+    width:280px;
+    margin-right:20px;
+    background-color:rgba(211,211,211,0.3);
+}
+.mancross_text img{
+    width:100%;
+    height:200px;
+}
+.mancross_text h3{
+    margin-left:20px;
+    font-size:22px;
+    color:#333333;
+}
+.mancross_text span{
+    color:#555;
+    margin-left:20px;
+    font-size: 17px;
+}
+.mancross_text p{
+    margin-left:20px;
+    line-height:25px;
+    color:#333333;
+}
+/* .contain{
     
     background-color: rgba(211,211,211,0.3);
     line-height: 20px;
 
-}
-/* .packages table{
-    text-align: center;
 } */
+/* /* packages content */
 .tabs{
-    display: flex;
-    /* margin-left: 150px; */
+    display:flex;
+    justify-content:space-around;
+
 
 }
-#tab1{
-    width:450px;
-    /* padding: 40px; */
-    text-align: center;
+.tabs li{
+    list-style:none;
 }
-
-#tab1 th{
+.tabs_one{
+    width:400px;
+    padding:5px,5px,0px,0px;
+}
+.tabs_one .large{
     background-color:gray;
     color:#ffffff;
-    font-size:30px;
-    height:50px;
+    text-align:center;
+    padding:30px;
+    /* width:380px; */
+    font-size:25px;
+    font-weight:bold;
+    margin-left:-38px;
 }
-#tab1 td{
-    border-bottom:1px solid grey;
-    background-color:#ddd;
-}
-#tab2{
-    width:450px;
-    /* padding: 40px; */
-    text-align: center;
+.tabs_one  li{
+    text-align:center;
+    background-color:rgba(211,211,211,0.3);
+    padding:15px;
+    /* width:400px; */
+    margin-left:-35px;
+
     
 }
-#tab2 th{
-    background-color: #4285f4;
-    color: #ffffff;
-    font-size:30px;
-    height:50px;
-}   
-#tab2 td{
-    border-bottom:1px solid grey;
-    background-color:#ddd;
+.tabs_one button{
+    background-color:#ffffff;
+    color:black;
+    padding:18px;
+    /* border-radius:5px; */
+    border:none;
 }
+.tabs_one button:hover{
+    background-color:black;
+    color: #ffffff;
+    /* border-radius:10px; */
+    border:none;
+}
+
+.tabs_two{
+    width:400px;
+    padding:5px,5px,0px,0px;
+}
+
+.tabs_two li{
+    text-align:center;
+    background-color:rgba(211,211,211,0.3);
+    padding:15px;
+    /* width:400px; */
+
+
+    
+}
+.tabs_two button{
+    background-color:#4285f4;
+    color: #ffffff;
+    padding:18px;
+    /* border-radius:5px; */
+    border:none;
+}
+.tabs_two button:hover{
+    background-color: black;
+    color: #ffffff;
+    /* border-radius:10px; */
+    border:none;
+}
+.tabs_two .large{
+    background-color:#4285f4;
+    color: #ffffff;
+    text-align: center;
+     padding:30px;
+    /* width:380px;  */
+    font-size:25px;
+    font-weight:bold;
+    /* margin-right:70px; */
+}
+
+/* contact */
+.contact{
+    /* margin-left:6px; */
+    margin-top:30px;
+    line-height:30px;
+}
+.contact h2{
+    font-size:55px;
+    color:#4285f4;
+}
+.contact p{
+    text-align:justify;
+}
+/* end of contact */
