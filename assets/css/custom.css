@@ -233,8 +233,9 @@ line-height: 30px;
 
 /* contact */
 .contact{
-    /* margin-left:6px; */
+    margin-left:400px;
     margin-top:30px;
+    margin-right: 30px;
     line-height:30px;
 }
 .contact h2{
@@ -244,4 +245,57 @@ line-height: 30px;
 .contact p{
     text-align:justify;
 }
+input[type=text],input[type=email]{
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing:border-box;
+}
+input[type=submit]{
+    width:100%;
+    background-color:#4285f4;
+    color:white;
+    padding:14px 20px;
+    margin:8px 0;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+
+
+    
+}
+input[type=submit]:hover{
+    background-color:#000000;
+}
+.contact_form{
+    border-radius:5px;
+    padding:20px;
+    background-color:lightgrey;
+}
+
+
+
+
+
+
+
+
+
 /* end of contact */
+/* footer */
+footer{
+    background-color: lightgrey;
+    margin-top:40px;
+    height:150px;
+    width:100%;
+    color:#000;
+    text-align:right;
+}
+footer h3{
+padding-top: 65px;
+    margin-right:60px;
+    font-weight:normal;
+}
