@@ -1,6 +1,8 @@
 body{
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 #app{
     top:0;
@@ -78,6 +80,7 @@ line-height: 30px;
 }
 .services p{
     text-align: justify;
+    width: 850px;
 }
 /* end of services */
 
@@ -95,6 +98,7 @@ line-height: 30px;
 
 .designers p{
     text-align: justify;
+    width:850px;
 }
 
 /* packages */
@@ -111,6 +115,7 @@ line-height: 30px;
 
 .packages p{
     text-align: justify;
+    width:850px;
 }
 .mancross{
     display:flex;
@@ -135,10 +140,11 @@ line-height: 30px;
     margin-left:20px;
     font-size: 17px;
 }
-.mancross_text p{
+.mancross_text .manp{
+    width: 200px;
     margin-left:20px;
     line-height:25px;
-    color:#333333;
+    /* color:#333333; */
 }
 /* .contain{
     
